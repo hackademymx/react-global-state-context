@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {GlobalStateProvider} from './contex'
 
-function App() {
+import NumComp from './NumComp'
+import TextComp from './TextComp'
+import BoolComp from './Boolcomp'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalStateProvider>
+      <h1 className='title'>Global State</h1>
+      <div className='container'>
+        {/* Number componet */}
+        <NumComp />
+        {/* Text componet */}
+        <TextComp />
+        {/* Bool componet */}
+        <BoolComp />
+      </div>
+    </GlobalStateProvider>
   );
 }
 

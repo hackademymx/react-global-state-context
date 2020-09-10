@@ -1,0 +1,33 @@
+.container-text {
+  padding: 1em;
+  background: #f5cd79;
+}
+
+.text-title {
+  text-align: center;
+  color: #303952;
+}
+
+.input-text {
+  border: 0;
+  border-radius: 4px;
+  padding: 5px;
+  outline: none;
+}
+
+.other-states {
+  font-size: 12px;
+  padding: 0;
+}
+
+
+.p-states {
+  margin: 5px 0;
+}
+
+
+.label-state {
+  background: #c44569;
+  padding: 1px;
+  margin-right: 5px;
+}

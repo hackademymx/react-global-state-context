@@ -1,0 +1,19 @@
+.container-bool {
+  padding: 1em;
+  background: #f5cd79;
+}
+
+.text-bool {
+  text-align: center;
+  color: #303952;
+}
+
+.bool-btn {
+  background: #574b90;
+  border: 0;
+  color: white;
+  margin: 0 0.5em;
+  padding: 0.5em;
+  outline: 0;
+  border-radius: 4px;
+}

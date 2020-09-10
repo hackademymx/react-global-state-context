@@ -1,0 +1,16 @@
+.other-states {
+  font-size: 12px;
+  padding: 0;
+}
+
+
+.p-states {
+  margin: 5px 0;
+}
+
+
+.label-state {
+  background: #c44569;
+  padding: 1px;
+  margin-right: 5px;
+}
