@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { StoreProvider } from "./store";
+import { ChildComponent } from "./childComponent"
 
-function App() {
+// 1) crear store
+// 2) creear storeAPI
+// 3) childComponent
+// 4) app 
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <StoreProvider>
+      <ChildComponent/>
+    </StoreProvider>
+  )
 }
 
 export default App;
